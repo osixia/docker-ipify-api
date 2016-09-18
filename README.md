@@ -2,14 +2,15 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/osixia/ipify-api.svg)][hub]
 [![Docker Stars](https://img.shields.io/docker/stars/osixia/ipify-api.svg)][hub]
+[![](https://images.microbadger.com/badges/image/osixia/ipify-api.svg)](http://microbadger.com/images/osixia/ipify-api "Get your own image badge on microbadger.com")
 
 [hub]: https://hub.docker.com/r/osixia/ipify-api/
 
 Latest release: 0.1.0 -  [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/osixia/ipify-api/) 
 
-**A very light weight (3.75mo only) docker image to run ipify-api.**
+**A very light weight docker image to run ipify-api.**
 
-> ipify-api website : [www.ipify.org/](https://www.ipify.org/)
+> [ipify.org](https://www.ipify.org/)
 
 - [Contributing](#contributing)
 - [Quick Start](#quick-start)
