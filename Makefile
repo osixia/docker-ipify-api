@@ -1,9 +1,12 @@
 NAME = osixia/ipify-api
 VERSION = 0.1.0
 
-.PHONY: build build-nocache test tag-latest push push-latest release git-tag-version
+.PHONY: compile build build-nocache test tag-latest push push-latest release git-tag-version
 
-build:
+compile:
+	env NAME=$(NAME)-compile VERSION=$(VERSION) ./compile/compile.sh
+
+build: compile
 	docker build -t $(NAME):$(VERSION) --rm image
 
 build-nocache:
