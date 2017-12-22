@@ -9,7 +9,7 @@ compile:
 build: compile
 	docker build -t $(NAME):$(VERSION) --rm image
 
-build-nocache:
+build-nocache: compile
 	docker build -t $(NAME):$(VERSION) --no-cache --rm image
 
 test:
